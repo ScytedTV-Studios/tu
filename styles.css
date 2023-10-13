@@ -1,0 +1,46 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the black background and white text */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Georgia', serif;
+}
+
+/* Center text horizontally and add padding */
+.container {
+    text-align: center;
+    padding: 20px; /* Add some padding to prevent text from touching the screen edges */
+}
+
+/* Ensure text is optimized for mobile */
+h1 {
+    font-size: 24px;
+}
+
+/* Optimize for smaller screens (e.g., mobile) */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 18px;
+    }
+}
+
+/* Style for <strong> (bold) */
+strong {
+    font-weight: bold;
+}
+
+/* Style for <em> (italic) */
+em {
+    font-style: italic;
+}
+
+/* Center the paragraph horizontally and add a margin between the text and the border */
+p {
+    text-align: center;
+    margin: 0 20px; /* Add a margin of 20px on either side to separate text */
+}
